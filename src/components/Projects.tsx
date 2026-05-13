@@ -15,7 +15,7 @@ export function Projects() {
           <div key={p.title} className={`project-card reveal reveal-d${i + 1}`}>
             <div className="project-header">
               <img
-                src={p.image}
+                src={p.image.startsWith('http') ? p.image : `${import.meta.env.BASE_URL}${p.image.replace(/^\//, '')}`}
                 alt={p.title}
                 className="project-img"
                 loading="lazy"
