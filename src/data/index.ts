@@ -72,7 +72,7 @@ export const projects: Project[] = [
   {
     year: '2024',
     icon: '🛒',
-    image: '/Eastern Gate.png',
+    image: '/EasternGate.png',
     title: 'Eastern Gate Online',
     desc: 'Responsive e-commerce application for construction hardware tools with seamless mobile and desktop shopping experience, full product catalog and cart.',
     tech: ['Next.js', 'React.js', 'Node.js', 'PostgreSQL'],
